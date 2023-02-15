@@ -21,7 +21,7 @@ docker-compose up -d
 
 ## Setup Grafana
 
-Navigate to `http://<host-ip>:3000` and login with user ***admin*** password ***admin***. You can change the password from within the Grafana portal, or you can modify the credentials in the compose file.
+Navigate to `http://<DOCKERHOST>:3000` and login with user ***admin*** password ***admin***. You can change the password from within the Grafana portal, or you can modify the credentials in the compose file.
 
 
 ```
