@@ -16,7 +16,7 @@ sh get-docker.sh
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-## Install containers
+## Install Containers
 
 Clone this repository on your Docker host, cd into the skyline directory and run compose up:
 
