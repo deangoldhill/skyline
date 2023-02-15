@@ -6,7 +6,17 @@ The script will pull the official images, and use the Grafana provisioning featu
 [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [Skyline](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk178566)
 
 
-## Install
+## Install Docker
+
+Install Docker-CE and docker-compose:
+
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+## Install containers
 
 Clone this repository on your Docker host, cd into the skyline directory and run compose up:
 
