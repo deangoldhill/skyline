@@ -3,7 +3,7 @@
 A monitoring solution for Checkpoint physical and virtual appliances.
 this docker compose script will install and configure an instance of Prometheus and Grafana as seperate containers, including required configuration parameters and dashboard templates.
 The script will pull the official images, and use the Grafana provisioning feature to automatically configure the Grafana datasource and dashboard template.
-[Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [Skyline] (https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk178566)
+[Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [Skyline](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk178566)
 
 
 ## Install
