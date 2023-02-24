@@ -5,7 +5,7 @@ this docker compose script will install and configure an instance of Prometheus 
 The script will pull the official images, and use the Grafana provisioning feature to automatically configure the Grafana datasource and dashboard template.
 [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [Skyline](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk178566)
 
-**Note - this connfiguration does not use TLS to secure any communication. If you wish to secure the communication, plrease refer to the Skyline-TLS repository [Skyline-TLS](https://github.com/deangoldhill/skyline-TLS)
+**Note - this connfiguration does not use TLS to secure any communication. If you want to use secured the communication, please refer to the Skyline-TLS repository which requires a few more steps to deploy. [Skyline-TLS](https://github.com/deangoldhill/skyline-TLS)
 
 ## Install Docker
 
