@@ -70,11 +70,18 @@ VSX server and indavidual virtual system stastics
 Create a configuration payload file on each Check Point machine with the following contents, and import it.
 Modify <DOCKERHOST> with the IP or hostname of your docker host.
 
+Navigate to the '/var/tmp' directory
+
 ```bash
 
 cd /var/tmp
 vi payload.json
+
+```
+
 ***paste the following*** (Modify <DOCKERHOST> with the IP or hostname of your docker host.)
+
+```bash
 
  {
     "enabled": true,
@@ -87,7 +94,10 @@ vi payload.json
     ]}
 } 
 
-***
+```
+Execute the payload execution command
+
+```bash
 
 sklnctl export --set "$(cat payload.json)"
 
