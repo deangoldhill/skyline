@@ -79,7 +79,7 @@ vi payload.json
 
 ```
 
-***paste the following*** (Modify <DOCKERHOST> with the IP or hostname of your docker host.)
+Paste the following into the file you just created and then save the file. (Modify <DOCKERHOST> with the IP or hostname of your docker host.)
 
 ```bash
 
