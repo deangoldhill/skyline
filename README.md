@@ -70,7 +70,7 @@ VSX server and indavidual virtual system stastics
 Create a configuration payload file on each Check Point machine with the following contents, and import it.
 Modify <DOCKERHOST> with the IP or hostname of your docker host.
 
-Navigate to the '/var/tmp' directory
+Navigate to the '/var/tmp' directory, create a new file called 'payload.json' in which you will paste the content from the next step.
 
 ```bash
 
