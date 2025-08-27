@@ -89,6 +89,6 @@ vi payload.json
 
 ***
 
-/opt/CPotelcol/REST.py --set_open_telemetry "$(cat payload.json)"
+sklnctl export --set "$(cat payload.json)"
 
 ```
